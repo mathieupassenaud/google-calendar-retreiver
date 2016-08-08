@@ -1,0 +1,51 @@
+# See docs/examples here:
+# http://doc.gitlab.com/ce/ci/quick_start/README.html
+# http://doc.gitlab.com/ce/ci/yaml/README.html
+
+# GitLab CI template for Go tests. Note this installs
+# a new working copy of Go (1.5.2 in this case) 
+# in a non-standard path such that sudo/root is not 
+# needed for the install stage.
+
+# note that this particular install-environment stage
+# is overly verbose in order to debug anything tricky
+# or weird in your environment - feel free to trim it 
+# down as needed
+
+stages:
+  - install-environment
+  - build
+  - test
+
+install-go:
+  stage: install-environment
+  script:
+    - export CURRENT_BUILD_PATH=$(pwd)
+    - echo $PATH
+    - rm -rf $HOME/golang
+    - rm -rf $HOME/gopath
+    - mkdir -p $HOME/golang # for GOROOT (contains the Go binary & core packages)
+    - mkdir -p $HOME/gopath # for GOPATH (contains code and external packages)
+    - curl http://storage.googleapis.com/golang/go1.6.3.linux-amd64.tar.gz 2>/dev/null > go1.6.3.linux-amd64.tar.gz
+    - tar -C $HOME/golang -xzf go1.6.3.linux-amd64.tar.gz
+    - export GOROOT=$HOME/golang/go
+    - export GOPATH=$HOME/gopath
+    - export PATH=$PATH:$GOROOT/bin
+    - export PATH=$PATH:$GOPATH/bin
+    - (if [[ "$(go version)" == *"go version go1.6"* ]]; then echo "✓ Go binary installed!"; else echo "Go binary not installed"; exit -1; fi);
+    - go version
+    - echo $PATH
+    - go env
+    - which go
+
+build-my-project:
+  stage: build
+  script:
+    - cd $CURRENT_BUILD_PATH
+    - make all
+
+test-my-project:
+  stage: test
+  script:
+    - cd $CURRENT_BUILD_PATH
+    - go test

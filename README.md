@@ -1,8 +1,6 @@
 Calendar Fetcher :
 
-needs a credentials file.
+needs a credentials file and configuration file with calendar id and output name.
 
-Call it with : 
+See : http://www.mathieupassenaud.fr/use-google-calendar-as-a-task-manager
 
-- calendar ID to retreive
-- script name to execute. Task name is given as an argument to the script.

@@ -1,0 +1,73 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;google-calendar-retreiver&gt;">
+    <CLASSES>
+      <root url="file://$USER_HOME$/go/work/src/server" />
+      <root url="file://$USER_HOME$/go/work/src/gopkg.in" />
+      <root url="file://$USER_HOME$/go/work/src/cloud.google.com" />
+      <root url="file://$USER_HOME$/go/work/src/github.com" />
+      <root url="file://$USER_HOME$/go/work/src/google.golang.org" />
+      <root url="file://$USER_HOME$/go/work/src/golang.org" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <excluded>
+      <root url="file://$USER_HOME$/go/work/src/golang.org/x/net/html/testdata" />
+      <root url="file://$USER_HOME$/go/work/src/github.com/mattn/go-runewidth/.git" />
+      <root url="file://$USER_HOME$/go/work/src/github.com/gizak/termui/_extra" />
+      <root url="file://$USER_HOME$/go/work/src/google.golang.org/api/.git" />
+      <root url="file://$USER_HOME$/go/work/src/github.com/gizak/termui/.git" />
+      <root url="file://$USER_HOME$/go/work/src/github.com/runabove/sail/.git" />
+      <root url="file://$USER_HOME$/go/work/src/github.com/inconshreveable/go-update/.git" />
+      <root url="file://$USER_HOME$/go/work/src/github.com/nsf/termbox-go/.git" />
+      <root url="file://$USER_HOME$/go/work/src/golang.org/x/net/html/charset/testdata" />
+      <root url="file://$USER_HOME$/go/work/src/cloud.google.com/go/datastore/testdata" />
+      <root url="file://$USER_HOME$/go/work/src/github.com/nsf/termbox-go/_demos" />
+      <root url="file://$USER_HOME$/go/work/src/cloud.google.com/go/storage/testdata" />
+      <root url="file://$USER_HOME$/go/work/src/github.com/spf13/cobra/.git" />
+      <root url="file://$USER_HOME$/go/work/src/google.golang.org/api/google-api-go-generator/testdata" />
+      <root url="file://$USER_HOME$/go/work/src/golang.org/x/oauth2/.git" />
+      <root url="file://$USER_HOME$/go/work/src/github.com/inconshreveable/go-update/internal/binarydist/testdata" />
+      <root url="file://$USER_HOME$/go/work/src/golang.org/x/net/http2/testdata" />
+      <root url="file://$USER_HOME$/go/work/src/github.com/docker/docker/pkg/tarsum/testdata" />
+      <root url="file://$USER_HOME$/go/work/src/golang.org/x/crypto/sha3/testdata" />
+      <root url="file://$USER_HOME$/go/work/src/github.com/inconshreveable/mousetrap/.git" />
+      <root url="file://$USER_HOME$/go/work/src/github.com/russross/blackfriday/testdata" />
+      <root url="file://$USER_HOME$/go/work/src/golang.org/x/oauth2/google/testdata" />
+      <root url="file://$USER_HOME$/go/work/src/github.com/russross/blackfriday/.git" />
+      <root url="file://$USER_HOME$/go/work/src/github.com/docker/docker/pkg/archive/testdata" />
+      <root url="file://$USER_HOME$/go/work/src/github.com/shurcooL/sanitized_anchor_name/.git" />
+      <root url="file://$USER_HOME$/go/work/src/github.com/docker/docker/docs/reference/api/_static" />
+      <root url="file://$USER_HOME$/go/work/src/github.com/spf13/pflag/.git" />
+      <root url="file://$USER_HOME$/go/work/src/golang.org/x/mobile/testdata" />
+      <root url="file://$USER_HOME$/go/work/src/gopkg.in/mgo.v2/.git" />
+      <root url="file://$USER_HOME$/go/work/src/golang.org/x/mobile/.git" />
+      <root url="file://$USER_HOME$/go/work/src/golang.org/x/mobile/internal/binres/testdata" />
+      <root url="file://$USER_HOME$/go/work/src/golang.org/x/crypto/.git" />
+      <root url="file://$USER_HOME$/go/work/src/cloud.google.com/go/bigtable/testdata" />
+      <root url="file://$USER_HOME$/go/work/src/github.com/ghodss/yaml/.git" />
+      <root url="file://$USER_HOME$/go/work/src/github.com/opencontainers/runc/.git" />
+      <root url="file://$USER_HOME$/go/work/src/golang.org/x/mobile/bind/testdata" />
+      <root url="file://$USER_HOME$/go/work/src/golang.org/x/mobile/example/basic/.idea" />
+      <root url="file://$USER_HOME$/go/work/src/cloud.google.com/go/.git" />
+      <root url="file://$USER_HOME$/go/work/src/github.com/google/go-querystring/.git" />
+      <root url="file://$USER_HOME$/go/work/src/github.com/raff/goble/.git" />
+      <root url="file://$USER_HOME$/go/work/src/github.com/opencontainers/runc/Godeps/_workspace" />
+      <root url="file://$PROJECT_DIR$" />
+      <root url="file://$USER_HOME$/go/work/src/github.com/docker/docker/hack/make/.resources-windows" />
+      <root url="file://$USER_HOME$/go/work/src/golang.org/x/net/.git" />
+      <root url="file://$USER_HOME$/go/work/src/github.com/runabove/sail/vendor/github.com/inconshreveable/go-update/internal/binarydist/testdata" />
+      <root url="file://$USER_HOME$/go/work/src/github.com/mathieupassenaud/car-dashboard/.idea" />
+      <root url="file://$USER_HOME$/go/work/src/golang.org/x/crypto/ssh/testdata" />
+      <root url="file://$USER_HOME$/go/work/src/github.com/howeyc/gopass/.git" />
+      <root url="file://$USER_HOME$/go/work/src/github.com/docker/docker/hack/make/.build-deb" />
+      <root url="file://$USER_HOME$/go/work/src/golang.org/x/net/bpf/testdata" />
+      <root url="file://$USER_HOME$/go/work/src/github.com/cpuguy83/go-md2man/.git" />
+      <root url="file://$USER_HOME$/go/work/src/github.com/bradfitz/campher/.git" />
+      <root url="file://$USER_HOME$/go/work/src/github.com/docker/docker/.git" />
+      <root url="file://$USER_HOME$/go/work/src/gopkg.in/yaml.v2/.git" />
+      <root url="file://$USER_HOME$/go/work/src/github.com/nu7hatch/gouuid/.git" />
+      <root url="file://$USER_HOME$/go/work/src/github.com/gizak/termui/_example" />
+      <root url="file://$USER_HOME$/go/work/src/github.com/docker/docker/hack/make/.build-rpm" />
+    </excluded>
+  </library>
+</component>
